@@ -1,0 +1,161 @@
+$color-line: #f1592a;
+$color-bg: #ffe0cf;
+$purple: #836AE7;
+$blue: #1343FF;
+$gray: #33363F;
+
+.ant-btn {
+  height: auto !important;
+}
+
+.bg {
+  background-color: $purple !important;
+  color: #fff !important;
+}
+
+.color-purple {
+  color: $purple;
+}
+
+.bg-blue {
+  background-color: $blue !important;
+  color: #fff !important;
+}
+.bg-gray {
+  background-color: $gray !important;
+  color: #fff !important;
+}
+
+.color-theme {
+  color: $color-line !important;
+}
+.bd-theme {
+  background-color: $color-line !important;
+  color: #fff !important  ;
+}
+.line {
+  border-bottom: 1px solid $color-line !important;
+}
+
+.box {
+  // border: 1px solid #000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
+}
+
+.box-summary {
+  border-radius: 15px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
+}
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
+}
+.custom-statistic {
+  .ant-statistic-title {
+    font-size: 20px !important;
+    color: #fff !important;
+  }
+  .ant-statistic-content {
+    font-size: 23px !important;
+    color: #fff !important;
+  }
+}
+.custom-statistic-black {
+  .ant-statistic-title {
+    font-size: 20px !important;
+    color: #000 !important;
+  }
+  .ant-statistic-content {
+    font-size: 23px !important;
+    color: #000 !important;
+  }
+}
+.custom-carousel {
+  .slick-dots {
+    li {
+      button {
+        background-color: #7facfb !important;
+        padding-top: 15px !important;
+      }
+    }
+    .slick-active {
+      button {
+        background-color: #0059f7 !important;
+      }
+    }
+  }
+}
+
+.box-center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.text-ellipsis {
+  // display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.title-card {
+  font-size: 20px;
+}
+.profile {
+  .ant-tabs-nav .ant-tabs-tab-active {
+    background-color: #836AE7 !important;
+  }
+  .ant-tabs-tab-btn:hover {
+    color: #836AE7;
+  }
+  :where(.css-dev-only-do-not-override-jmbk1y).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fff !important;
+  }
+
+}
+.picture-card {
+  width: 144px !important;
+  height: 104px !important;
+}
+
+.box-form-nospace {
+  .ant-form-item {
+    margin-bottom: 0px;
+  }
+}
+.font-preview {
+  font-size: 20px;
+  font-weight: bold;
+}
+.border-bottom-1 {
+  border-bottom: 1px solid #000;
+}
+.img-banner {
+  .ant-upload-list-item-container {
+    width: 250px !important;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+  color: $color-line !important;
+}
+
+.custom-table {
+  .ant-table-row-selected { 
+    .ant-table-cell {
+      background-color: $color-bg !important;
+    }
+  }
+  
+}
+.ql-align-right {
+	text-align: right;
+}
+.ql-align-center {
+	text-align: center;
+}
+.ql-align-left {
+	text-align: left;
+}
+
+

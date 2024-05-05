@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$color-bg: #E5E7EB;
+$color-btn: #0081C9;
+
+body {
+    /* font-family: 'IBM Plex Sans Thai Looped'; */
+}
+
+.bg-layout-content {
+    background-color: $color-bg;
+}
+
+.content {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+    border-top-left-radius: 10px;
+}
+
+.title-menu {
+    font-weight: 600;
+    font-size: 26px;
+    border-bottom: 1px solid $color-bg;
+    padding-bottom: 10px;
+}
+.menu-active {
+    background-color: $color-btn;
+    color: #fff;
+}
+.menu-active:hover {
+    background-color: $color-btn !important;
+    color: #fff;
+}
+.pointer {
+    cursor: pointer;
+}
